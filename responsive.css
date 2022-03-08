@@ -1,0 +1,189 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  body {
+    margin: 24px 16px;
+  }
+  .bi {
+    color: #f2994a;
+    font-size: 18px;
+  }
+  .menu-text {
+    color: #f2994a;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .my-button,
+  .menu-items-text {
+    background-color: transparent;
+    border: none;
+    display: none;
+    align-items: center;
+  }
+
+  .bottom-nav-page {
+    position: fixed;
+    /* right: 0; */
+    bottom: 0;
+    z-index: 1030;
+    left: 0;
+    float: left;
+  }
+
+  .bottom-nav,
+  .btn-hire-me-mobile {
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    z-index: 1030;
+    /* left: 0; */
+  }
+
+  .bottom-nav,
+  .bottom-nav-page {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+  }
+  .btn-hire-me-mobile {
+    padding: 12px 32px;
+    display: inline-flex;
+    margin-left: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    margin: 24px 16px;
+  }
+  .bottom-nav {
+    display: none;
+  }
+  .bi {
+    color: #f2994a;
+    font-size: 18px;
+  }
+  .menu-text {
+    color: #f2994a;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .my-button {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    margin: 24px 24px;
+  }
+  .bi {
+    color: #f2994a;
+    font-size: 24px;
+  }
+  .menu-text {
+    color: #f2994a;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .my-button {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  .home-content-items {
+    padding: 0px 25%;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    margin: 24px 72px;
+  }
+  .bi {
+    color: #f2994a;
+    font-size: 28px;
+  }
+  .menu-text {
+    color: #f2994a;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .my-button {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .home-content-items {
+    padding: 0px 30%;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    margin: 24px 120px;
+  }
+  .bi {
+    color: #f2994a;
+    font-size: 36px;
+  }
+  .menu-text {
+    color: #f2994a;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  .my-button {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .home-content-items {
+    padding: 0px 30%;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
